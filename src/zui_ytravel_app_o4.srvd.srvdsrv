@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_YTRAVEL_APP'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_YTRAVEL_APP'
+  }
+}
+define service ZUI_YTRAVEL_APP_O4 provider contracts odata_v4_ui {
+  expose ZC_YTRAVEL_APP;
+}
